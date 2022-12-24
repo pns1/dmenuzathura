@@ -1,0 +1,3 @@
+#!/bin/bash
+PDFS="$HOME/Pdfs/"
+xdg-open $PDFS$(ls $PDFS | dmenu)
